@@ -4,7 +4,7 @@
 }not working :c*/
 
 body {
-    max-width: 438px;
+    /*max-width: 438px;*/
     line-height: 1.4;
 }
 
@@ -76,6 +76,8 @@ p {
     padding: 15px;
     font-size: larger;
 }
+
+
 
 /*adds colour and centers headings*/
 h1 , h2 , h3 {
