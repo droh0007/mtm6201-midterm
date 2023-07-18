@@ -1,0 +1,259 @@
+/*@font-face {
+    font-family: "racesport";
+    src: url(..fonts/RaceSport.ttf) format('truetype');
+}not working :c*/
+
+body {
+    max-width: 438px;
+    line-height: 1.4;
+}
+
+/*sets colour of nav bar*/
+.header {
+    background-color: #1A4963;
+}
+
+nav {
+    color: #E89025;
+}
+
+/*makes nav display horizontally*/
+nav li {
+    display: inline;
+    padding: 15px;
+}
+
+/*gets rid of list style*/
+nav ul {
+    list-style: none;
+}
+
+/*sets size of logo*/
+li img {
+    width: 25%;
+    margin: 0;
+    padding: 8px;
+}
+
+ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    padding-bottom: 8px;
+}
+
+/*colour of link*/
+a:link { 
+	text-decoration: none;
+	color: #E89025;
+}
+
+  /*keeps visited link the same colour */
+  a:visited {
+    color: #E89025;
+  }
+
+/*effects wrapper going around the whole page*/
+.wrapper {
+    margin: auto;
+    width: 95%;
+}
+
+  /*not centered yet*/
+image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    padding: 15px;
+    font-size: larger;
+}
+
+/*adds colour and centers headings*/
+h1 , h2 , h3 {
+    /*font-family: "racesport", sans-serif;*/
+    text-align: center;
+    color: #E89025;
+    font-family: 'Bungee', cursive;
+}
+
+/*adds styling, colour and size of icons on contact page*/
+.fa-location-dot , .fa-phone , .fa-envelope , .fa-fax {
+    border:0;
+    width: 100%;
+    font-size: 9rem;
+    padding-top: 35px;
+    text-align: center;
+    color: #E89025;
+}
+
+.designer {
+    padding-left: 16%;
+}
+
+.wrapper-product , .wrapper-founder {
+    color: white;
+    background-color: #1A4963;
+}
+
+.wrapper-background , .wrapper-company {
+    color: white;
+    background-color: #337EA8;
+}
+
+.wrapper-mission , .wrapper-office , .wrapper-phone , .wrapper-email , .wrapper-fax {
+    color: white;
+    background-color: #337EA8;
+    width: 80%;
+    margin: auto;
+}
+
+.wrapper-office h2, .wrapper-phone h2, .wrapper-email h2, .wrapper-fax h2 {
+    color: black;
+    font-size: 40px;
+}
+
+.wrapper-testemonial {
+background-color: #82D6F4;
+width: 75%;
+text-align: center;
+margin: auto;
+}
+
+iframe {
+    border:0;
+    width: 100%;
+    height:400px;
+}
+
+.wrapper-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+/*Puts the blue slash background image in it's wrapper and sizes it*/
+.wrapper-slash {
+    background-image: url('../images/splash.png');
+    background-size: 125%;
+    background-position: right;
+}
+
+.wrapper-wheel-1 {
+    background-image: url('../images/wheel-1.png');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: left;
+    padding-top: 30px;
+    padding-left: 05;
+    margin-left: 0%;
+}
+
+.wrapper-wheel-2 {
+    background-image: url('../images/wheel-2.png');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: right;
+}
+
+.wrapper-snow {
+    background-image: url('../images/snow.png');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: left;
+}
+
+.wrapper-slash-2 {
+    background-image: url('../images/splash-2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+}
+
+	/*gives spacing between boxes*/
+	#urname , #email , #urmessage {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding: 5px;
+		width: 75%;
+	}
+
+	/*makes the message box larger*/
+	#urmessage {
+		padding-bottom: 100px;
+		padding-left: 0;
+	}
+
+	#email {
+		margin-left: 25px;
+	}
+
+	#send {
+		background-color: #E89025;
+        box-shadow: 5px 5px 2px 1px #82D6F4;
+		border: none;
+		padding: 10px 10px;
+		font-size: 1.3rem;
+
+	  }
+
+footer {
+    background-color: #1A4963;
+    color: #E89025;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+.fa-twitter:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+.fa-instagram:hover {
+    opacity: 0.7;
+}
