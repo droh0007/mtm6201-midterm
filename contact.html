@@ -21,7 +21,7 @@
     
     <!--wrapper that goes around everything-->
     <div class="wrapper">
-        <div class="header">
+        <div class="header" role="navigation">
             <nav>
                 <ul>
                     <li>
@@ -32,7 +32,7 @@
                     <li><a href="contact.html">Contact</a>
                 </ul>
             </nav>
-            <form class="search">
+            <form class="search" role="search">
                 <input type="search" placeholder="Search...">
                 <button type="submit">Search</button>
               </form>
@@ -76,7 +76,7 @@
             <h2>Contact Us</h2>
             <div class="wrapper-info">
                 <div class="contact">
-                    <div class="form">
+                    <div class="form" role="form">
                         <div>
                             <label for="urname">Full Name</label>
                             <input id="urname" name="yourname"
@@ -106,8 +106,8 @@
                             <a href="#" class="fa fa-instagram"></a></a>
                 <br>Support
                 <br>Contact: 613-998-5555
-                <br>Address: 512 Stella Street
-                <br>Email: WinterWheelyTracks@gmail.com
+                <br role="region"><li itemprop="address"></li>Address: 512 Stella Street
+                <br><li itemprop="email"></li>Email: WinterWheelyTracks@gmail.com
             </p>
             <p>&copy; Copyright Winter Wheely Tracks, 2023</p>
         </footer>

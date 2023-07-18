@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="header">
+        <div class="header" role="navigation">
             <nav>
                 <ul>
                     <li>
@@ -23,14 +23,14 @@
                     <li><a href="contact.html">Contact</a>
                 </ul>
             </nav>
-            <form class="search">
+            <form class="search" role="search">
                 <input type="search" placeholder="Search...">
                 <button type="submit">Search</button>
               </form>
         </div>
         </div>
 
-        <main>
+        <main role="main">
             <img class="snow-chair" alt="man in wheelchair enjoying snow" src="images/snow-chair.png">
             <h2>About The Company</h2>
             <div class="wrapper-company">
@@ -39,6 +39,7 @@
 
             <h2>About The Founder</h2>
             <!--wrapper with tire background-->
+            <ul itemscope itemtype="https://schema.org/Person"></ul>
             <img class="bryce" alt="Founder Bryce" src="images/bryce.png">
             <div class="wrapper-founder">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium sed neque quaerat ipsa harum! Totam magni voluptatum expedita, nobis optio enim itaque harum inventore eos repellat cupiditate voluptate accusamus. Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium sed neque quaerat ipsa harum! Totam magni voluptatum expedita, nobis optio enim itaque harum inventore eos repellat cupiditate voluptate accusamus. Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium sed neque quaerat ipsa harum! Totam magni voluptatum expedita, nobis optio enim itaque harum inventore eos repellat cupiditate voluptate accusamus. Magnam.</p>
@@ -68,8 +69,8 @@
                             <a href="#" class="fa fa-instagram"></a></a>
                 <br>Support
                 <br>Contact: 613-998-5555
-                <br>Address: 512 Stella Street
-                <br>Email: WinterWheelyTracks@gmail.com
+                <br role="region"><li itemprop="address"></li>Address: 512 Stella Street
+                <br><li itemprop="email"></li>Email: WinterWheelyTracks@gmail.com
             </p>
             <p>&copy; Copyright Winter Wheely Tracks, 2023</p>
         </footer>
