@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <!--links css animations-->
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -28,6 +29,7 @@
         <div class="header" role="navigation">
             <nav>
                 <ul>
+                    <!--animation is added to logo-->
                     <li>
                         <img alt="logo" class="animate__animated animate__tada" src="images/logo.png">
                     </li>
@@ -42,9 +44,11 @@
               </form>
         </div>
 
-        <main>
+        <!--aria role added to main for accessability-->
+        <main role="main">
             <img class="phone-banner" alt="image of an orange telephone" src="images/phone-banner.png">
 
+            <!--each contact section has a symbol from font awsome-->
             <div class="wrapper-slash-2">
                 <div class="wrapper-office">
                     <i class="fa-solid fa-location-dot"></i>
@@ -80,6 +84,7 @@
             <h2>Contact Us</h2>
             <div class="wrapper-info">
                 <div class="contact">
+                    <!--aria role added to form for accessability-->
                     <div class="form" role="form">
                         <div>
                             <label for="urname">Full Name</label>
@@ -110,7 +115,9 @@
                             <a href="#" class="fa fa-instagram"></a></a>
                 <br>Support
                 <br>Contact: 613-998-5555
+                <!--aria role and itemprop added to address for accessability-->
                 <br role="region"><li itemprop="address"></li>Address: 512 Stella Street
+                <!--itemprop added to email for accessability-->
                 <br><li itemprop="email"></li>Email: WinterWheelyTracks@gmail.com
             </p>
             <p>&copy; Copyright Winter Wheely Tracks, 2023</p>

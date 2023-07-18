@@ -6,9 +6,12 @@
     <title>About</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--links google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <!--links font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/main.css" rel="stylesheet">
+    <!--links css animations-->
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -16,9 +19,11 @@
 </head>
 <body>
     <div class="wrapper">
+        <!--aria role added to nav for accessability-->
         <div class="header" role="navigation">
             <nav>
                 <ul>
+                    <!--animates logo-->
                     <li>
                         <img alt="logo" class="animate__animated animate__tada" src="images/logo.png">
                     </li>
@@ -34,6 +39,7 @@
         </div>
         </div>
 
+        <!--aria role added to main for accessability-->
         <main role="main">
             <img class="snow-chair" alt="man in wheelchair enjoying snow" src="images/snow-chair.png">
             <h2>About The Company</h2>
@@ -42,7 +48,7 @@
             </div>
 
             <h2>About The Founder</h2>
-            <!--wrapper with tire background-->
+            <!--schema role added to bryce-->
             <ul itemscope itemtype="https://schema.org/Person"></ul>
             <img class="bryce" alt="Founder Bryce" src="images/bryce.png">
             <div class="wrapper-founder">
@@ -51,10 +57,16 @@
 
             <h2>About Our Designers</h2>
             <div class="wrapper-snow">
+                <!--schema added to designer for accessability-->
+                <ul itemscope itemtype="https://schema.org/Person"></ul>
                 <img class="designer" alt="Designer Ada Jabari" src="images/designer-1.png">
                 <h3>Ada Jabari</h3>
+                <!--schema added to designer for accessability-->
+                <ul itemscope itemtype="https://schema.org/Person"></ul>
                 <img class="designer" alt="Designer Omari Williams" src="images/designer-2.png">
                 <h3>Omari Williams</h3>
+                <!--schema added to designer for accessability-->
+                <ul itemscope itemtype="https://schema.org/Person"></ul>
                 <img class="designer" alt="Designer Sarah Lang" src="images/designer-3.png">
                 <h3>Sarah Lang</h3>
             </div>
@@ -73,7 +85,9 @@
                             <a href="#" class="fa fa-instagram"></a></a>
                 <br>Support
                 <br>Contact: 613-998-5555
+                <!--aria role and itemprop added to address for accesability-->
                 <br role="region"><li itemprop="address"></li>Address: 512 Stella Street
+                <!--itemprop added to email for accessability-->
                 <br><li itemprop="email"></li>Email: WinterWheelyTracks@gmail.com
             </p>
             <p>&copy; Copyright Winter Wheely Tracks, 2023</p>
